@@ -20,6 +20,11 @@ void MainGame::run()
 	sprites.back()->init(-1, -1, 1, 1, "Images/lock.png");
 	sprites.push_back(new Sprite());
 	sprites.back()->init(0, -1, 1, 1, "Images/lock.png");
+	//EPIC PC2 Blue Lock
+	sprites.push_back(new Sprite());
+	sprites.back()->init(0, 0, 1, 1, "Images/lock.png");
+	sprites.push_back(new Sprite());
+	sprites.back()->init(-1, 0, 1, 1, "Images/lock.png");
 	//sprite.init(-1, -1, 1, 1,"Images/lock.png");
 	update();
 }
